@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    box-sizing: border-box;
+
+}
+
+body {
+    margin: 0;
+    font-family: "Roboto", serif;
+    background-color: white
+}
+
+.navbar {
+    display: flex;
+    flex-flow: row wrap;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(6, 6, 102);
+
+}
+
+.logo {
+    margin-left: 4%;
+    flex: 20%;
+    text-align: left;
+}
+
+.menu {
+    margin-right: 4%;
+}
+
+.menu a {
+    flex: 70%;
+    text-align: right;
+    padding: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+.menu a:hover {
+    color: rgb(6, 6, 102);
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+}
+
+#botao {
+    color: rgb(6, 6, 102);
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+
+}
+
+#botao:hover {
+    color: white;
+    padding: 20px;
+    background-color: rgb(6, 6, 102);
+    border-radius: 10px;
+    transition-delay: 2s;
+}
+
+.descricao p {
+    color: rgb(6, 6, 102);
+    text-align: center;
+    margin: 0px;
+    font-size: 18px;
+}
+
+.descricao h2 {
+    color: rgb(6, 6, 102);
+    margin-left: 2%;
+    font-size: 24px;
+    margin-top: 1%;
+
+}
+
+header h1 {
+    text-align: center;
+    color: rgb(6, 6, 102);
+    margin-bottom: 0px;
+    margin-top: 10px;
+    font-weight: 900;
+    font-size: 40px;
+}
+
+
+form select {
+    font-size: 18px;
+    padding: 5px;
+}
+
+form h3 {
+    margin-top: 25px;
+    margin-bottom: 10px;
+    max-width: 600px;
+}
+
+form h2 {
+    color: rgb(6, 6, 102);
+}
+
+.radio label {
+    font-weight: 400;
+    font-size: 22px;
+    margin-right: 4%;
+}
+
+.radio2 label {
+    font-weight: 400;
+    font-size: 20px;
+}
+
+
+
+#geral {
+    color: rgb(0, 0, 0);
+}
+
+.formulario {
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    margin-left: 8%;
+}
+
+*.form1 {
+    flex: 1;
+    max-height: 20%;
+}
+
+.form2 {
+    flex: 1;
+}
+
+.form2 h3 {
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+.dados {
+    margin-bottom: 05px;
+    display: inline-block;
+    max-width: 40%;
+    width: 100%;
+    font-size: 20px;
+}
+
+.div_botao {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.enviar {
+    color: white;
+    font-size: 25px;
+    font-weight: 600;
+    background-color: rgb(6, 6, 102);
+    text-decoration: none;
+    border: none;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    padding: 28px;
+}

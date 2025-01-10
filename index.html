@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fundação Luverdense de Saúde - Pesquisa</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            <img src="./img/logo.png" height="80px">
+        </div>
+        <div class="menu">
+            <a href="https://hospitalsaolucaslrv.com.br/"><strong>Pagina inicial</strong></a>
+            <a href="https://hospitalsaolucaslrv.com.br/sobre/"><strong>Sobre nós</strong></a>
+            <a href="#"><strong>Indicadores</strong></a>
+            <a id="botao" href="./index.html"><strong>Satisfação</strong></a>
+        </div>
+    </nav>
+    <header>
+        <div>
+            <h1>Responda Nossa Pesquisa de Satisfação</h1>
+        </div>
+    </header>
+    <section class="descricao">
+        <div>
+            <p>A Satisfação é um requisito essencial.</p>
+            <p>Sendo assim, a principal razão desta iniciativa é concentrar nossos esforçõs na melhoria continua da
+                qualidade e eficacia de nossos serviços.</p>
+            <p>Para isso, seus comentarios e sugestões serão extremamente valiosos.</p>
+            <hr>
+        </div>
+        <div>
+    </section>
+    <div class="formulario">
+        <form class="form1">
+            <h2>Assinale as opções abaixo</h2>
+            <h3>Você é:</h3>
+            <section>
+                <select>
+                    <option value="Não informado" selected disabled>Selecione</option>
+                    <option value="Paciente">Paciente</option>
+                    <option value="Acompanhante">Acompanhante</option>
+                </select>
+            </section>
+            <h3>Qual o tipo de atendimento?</h3>
+            <section>
+                <select>
+                    <option value="Não informado" selected disabled>Selecione</option>
+                    <option value="Urgencia/Emergencia">Urgência/Emergência</option>
+                    <option value="Internacao Ala 100">Internacao Ala 100</option>
+                    <option value="Internacao Ala da Cooperacao">Internacao Ala da Cooperação</option>
+                    <option value="Internacao Ala Bruce">Internacao Ala Bruce</option>
+                    <option value="Internacao Ala 300">Internacao Ala 300</option>
+                    <option value="Internacao Ala 400">Internacao Ala 400</option>
+                    <option value="UTI Neonatal">UTI Neonatal</option>
+                    <option value="UTI Adulto">UTI Adulto</option>
+                </select>
+            </section>
+            <h3 id="geral">Como você avalia sua satisfação em relação<br>
+                ao atendimento recebido de forma geral?</h3>
+            <section class="radio">
+                <input type="radio" id="avaliacao_geral1" name="avaliacao_geral" value="1">
+                <Label for="avaliacao_geral1">1</Label>
+                <input type="radio" id="avaliacao_geral2" name="avaliacao_geral" value="2">
+                <Label for="avaliacao_geral2">2</Label>
+                <input type="radio" id="avaliacao_geral3" name="avaliacao_geral" value="3">
+                <Label for="avaliacao_geral3">3</Label>
+                <input type="radio" id="avaliacao_geral4" name="avaliacao_geral" value="4">
+                <Label for="avaliacao_geral4">4</Label>
+                <input type="radio" id="avaliacao_geral5" name="avaliacao_geral" value="5">
+                <Label for="avaliacao_geral5">5</Label>
+            </section>
+            <h3>Avaliação da Recepçao:</h3>
+            <section class="radio">
+                <input type="radio" id="avaliacao_recepcao1" name="avaliacao_recepcao" value="1">
+                <Label for="avaliacao_recepcao1">1</Label>
+                <input type="radio" id="avaliacao_recepcao2" name="avaliacao_recepcao" value="2">
+                <Label for="avaliacao_recepcao2">2</Label>
+                <input type="radio" id="avaliacao_recepcao3" name="avaliacao_recepcao" value="3">
+                <Label for="avaliacao_recepcao3">3</Label>
+                <input type="radio" id="avaliacao_recepcao4" name="avaliacao_recepcao" value="4">
+                <Label for="avaliacao_recepcao4">4</Label>
+                <input type="radio" id="avaliacao_recepcao5" name="avaliacao_recepcao" value="5">
+                <Label for="avaliacao_recepcao5">5</Label>
+            </section>
+            <h3>Avaliação da equipe médica:</h3>
+            <section class="radio">
+                <input type="radio" id="avaliacao_medicos1" name="avaliacao_medicos" value="1">
+                <Label for="avaliacao_medicos1">1</Label>
+                <input type="radio" id="avaliacao_medicos2" name="avaliacao_medicos" value="2">
+                <Label for="avaliacao_medicos2">2</Label>
+                <input type="radio" id="avaliacao_medicos3" name="avaliacao_medicos" value="3">
+                <Label for="avaliacao_medicos3">3</Label>
+                <input type="radio" id="avaliacao_medicos4" name="avaliacao_medicos" value="4">
+                <Label for="avaliacao_medicos4">4</Label>
+                <input type="radio" id="avaliacao_medicos5" name="avaliacao_medicos" value="5">
+                <Label for="avaliacao_medicos5">5</Label>
+            </section>
+            <h3>Avaliação da enfermagem:</h3>
+            <section class="radio">
+                <input type="radio" id="avaliacao_enfermagem1" name="avaliacao_enfermagem" value="1">
+                <Label for="avaliacao_enfermagem1">1</Label>
+                <input type="radio" id="avaliacao_enfermagem2" name="avaliacao_enfermagem" value="2">
+                <Label for="avaliacao_enfermagem2">2</Label>
+                <input type="radio" id="avaliacao_enfermagem3" name="avaliacao_enfermagem" value="3">
+                <Label for="avaliacao_enfermagem3">3</Label>
+                <input type="radio" id="avaliacao_enfermagem4" name="avaliacao_enfermagem" value="4">
+                <Label for="avaliacao_enfermagem4">4</Label>
+                <input type="radio" id="avaliacao_enfermagem5" name="avaliacao_enfermagem" value="5">
+                <Label for="avaliacao_enfermagem5">5</Label>
+            </section>
+            <h3>Avaliação da higiene e limpeza:</h3>
+            <section class="radio">
+                <input type="radio" id="avaliacao_limpeza1" name="avaliacao_limpeza" value="1">
+                <Label for="avaliacao_limpeza1">1</Label>
+                <input type="radio" id="avaliacao_limpeza2" name="avaliacao_limpeza" value="2">
+                <Label for="avaliacao_limpeza2">2</Label>
+                <input type="radio" id="avaliacao_limpeza3" name="avaliacao_limpeza" value="3">
+                <Label for="avaliacao_limpeza3">3</Label>
+                <input type="radio" id="avaliacao_limpeza4" name="avaliacao_limpeza" value="4">
+                <Label for="avaliacao_limpeza4">4</Label>
+                <input type="radio" id="avaliacao_limpeza5" name="avaliacao_limpeza" value="5">
+                <Label for="avaliacao_limpeza5">5</Label>
+            </section>
+        </form>
+        <form class="form2">
+            <h2>Serviços</h2>
+            <h3>Laboratório Angela:</h3>
+            <section class="radio">
+                <input type="radio" id="avaliacao_laboratorio1" name="avaliacao_laboratorio" value="1">
+                <Label for="avaliacao_laboratorio1">1</Label>
+                <input type="radio" id="avaliacao_laboratorio2" name="avaliacao_laboratorio" value="2">
+                <Label for="avaliacao_laboratorio2">2</Label>
+                <input type="radio" id="avaliacao_laboratorio3" name="avaliacao_laboratorio" value="3">
+                <Label for="avaliacao_laboratorio3">3</Label>
+                <input type="radio" id="avaliacao_laboratorio4" name="avaliacao_laboratorio" value="4">
+                <Label for="avaliacao_laboratorio4">4</Label>
+                <input type="radio" id="avaliacao_laboratorio5" name="avaliacao_laboratorio" value="5">
+                <Label for="avaliacao_laboratorio5">5</Label>
+            </section>
+            <h3>Centro de Imagens:</h3>
+            <section class="radio">
+                <input type="radio" id="avaliacao_cdi1" name="avaliacao_cdi" value="1">
+                <Label for="avaliacao_cdi1">1</Label>
+                <input type="radio" id="avaliacao_cdi2" name="avaliacao_cdi" value="2">
+                <Label for="avaliacao_cdi2">2</Label>
+                <input type="radio" id="avaliacao_cdi3" name="avaliacao_cdi" value="3">
+                <Label for="avaliacao_cdi3">3</Label>
+                <input type="radio" id="avaliacao_cdi4" name="avaliacao_cdi" value="4">
+                <Label for="avaliacao_cdi4">4</Label>
+                <input type="radio" id="avaliacao_cdi5" name="avaliacao_cdi" value="5">
+                <Label for="avaliacao_cdi5">5</Label>
+            </section>
+            <h3>Nutrição:</h3>
+            <section class="radio">
+                <input type="radio" id="avaliacao_nutricao1" name="avaliacao_nutricao" value="1">
+                <Label for="avaliacao_nutricao1">1</Label>
+                <input type="radio" id="avaliacao_nutricao2" name="avaliacao_nutricao" value="2">
+                <Label for="avaliacao_nutricao2">2</Label>
+                <input type="radio" id="avaliacao_nutricao3" name="avaliacao_nutricao" value="3">
+                <Label for="avaliacao_nutricao3">3</Label>
+                <input type="radio" id="avaliacao_nutricao4" name="avaliacao_nutricao" value="4">
+                <Label for="avaliacao_nutricao4">4</Label>
+                <input type="radio" id="avaliacao_nutricao5" name="avaliacao_nutricao" value="5">
+                <Label for="avaliacao_nutricao5">5</Label>
+            </section>
+            <h3>Fisioterapia:</h3>
+            <section class="radio">
+                <input type="radio" id="avaliacao_fisioterapia1" name="avaliacao_fisioterapia" value="1">
+                <Label for="avaliacao_fisioterapia1">1</Label>
+                <input type="radio" id="avaliacao_fisioterapia2" name="avaliacao_fisioterapia" value="2">
+                <Label for="avaliacao_fisioterapia2">2</Label>
+                <input type="radio" id="avaliacao_fisioterapia3" name="avaliacao_fisioterapia" value="3">
+                <Label for="avaliacao_fisioterapia3">3</Label>
+                <input type="radio" id="avaliacao_fisioterapia4" name="avaliacao_fisioterapia" value="4">
+                <Label for="avaliacao_fisioterapia4">4</Label>
+                <input type="radio" id="avaliacao_fisioterapia5" name="avaliacao_fisioterapia" value="5">
+                <Label for="avaliacao_fisioterapia6">5</Label>
+            </section>
+            <h3>Espaço para sugestões:</h3>
+            <section>
+                <textarea name="sugestoes"
+                    placeholder="Reservamos este espaço para suas sugestões e reclamações para que possamos melhorar nossos serviços e aumentar a sua satisfação."
+                    rows="5" cols="80"></textarea>
+            </section>
+            <h3>Você voltaria em nossa instituição?</h3>
+            <section class="radio">
+                <input type="radio" id="voltaria_sim" name="voltaria" value="Sim">
+                <Label for="voltaria_sim">Sim</Label>
+                <input type="radio" id="voltaria_nao" name="voltaria" value="Não">
+                <Label for="voltaria_nao">Não</Label>
+            </section>
+            <h3>Se tiver disponibilidade e interesse para mantermos comunicação, preencha os campos abaixo com os seus
+                dados pessoais.</h3>
+            <section class="radio2">
+                <Label for="nome_paciente">Nome:</Label>
+                <input class="dados" type="text" id="nome_paciente"> <br>
+                <Label for="email">E-mail:</Label>
+                <input class="dados" type="email" id="email"> <br>
+                <Label for="Telefone">Telefone:</Label>
+                <input class="dados" type="Telefone" id="Telefone">
+            </section>
+            <input class="enviar" type="submit">
+        </form>
+
+
+</body>
+
+</html>
